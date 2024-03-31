@@ -189,6 +189,14 @@
   "blog": {
     "__resolveType": "decohub/apps/blog.ts"
   },
+  "collections/blog/authors/d682065af220": {
+    "name": "collections/blog/authors/d682065af220",
+    "__resolveType": "blog/loaders/Author.ts",
+    "author": {
+      "name": "Leandro Borges",
+      "email": "lnjaine@gmail.com"
+    }
+  },
   "decohub": {
     "__resolveType": "site/apps/decohub.ts"
   },
@@ -266,12 +274,16 @@
       "__resolveType": "Neutral"
     }
   },
-  "collections/blog/authors/d682065af220": {
-    "name": "collections/blog/authors/d682065af220",
-    "__resolveType": "blog/loaders/Author.ts",
-    "author": {
-      "name": "Leandro Borges",
-      "email": "lnjaine@gmail.com"
+  "collections/blog/posts/71d4ea5d6ec6": {
+    "name": "collections/blog/posts/71d4ea5d6ec6",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [],
+      "title": "Comecei a escrever hoje",
+      "subtitle": "Um post muito simpático",
+      "date": "2024-03-31",
+      "slug": "/primeiro-post/",
+      "content": "<h1>Hello there! The Angel from my nightmare.</h1><p></p><p></p><p>My stuufff</p><p></p>"
     }
   }
 }
